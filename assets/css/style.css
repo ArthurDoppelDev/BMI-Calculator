@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --primary-color:#1e272e;
+  --secondary-color:#596ab8;
+}
+
+*{
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--primary-color);
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.container{
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: antiquewhite;
+}
+
+form input, form label, form button{
+  display: block;
+  width: 100%;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+.coluna-IMC,.coluna-resultado{
+  display: inline-block;
+  width: 250px;
+}
+.coluna-resultado{
+  margin-left: 30px;
+}
+
+.inputBox{
+  border-radius:12px;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+}
+.inputBox:focus{
+  outline: 2px solid var(--primary-color);
+}
+
+.submitButton{
+  border-radius: 16px;
+  border: none;
+  width: 150px;
+  background-color: var(--secondary-color);
+  color: aliceblue;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+  transition: opacity 0.5s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.submitButton:hover{
+  opacity: 0.8;
+}
+.submitButton:active{
+  box-shadow: none;
+}
+

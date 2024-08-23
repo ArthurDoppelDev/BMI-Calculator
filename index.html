@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI form</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <section class="container">
+    <h1>BMI table</h1>
+
+    <div class="coluna-IMC">
+      <p><strong>BMI</strong></p>
+    <p>
+      Less than 18.5<br>
+      Between 18.5 and 24.9<br>
+      Between 25 and 29.9<br>
+      Between 30 and 34.9<br>
+      Between 35 and 39.9<br>
+      More than 40
+    </p>
+    </div>
+
+    <div class="coluna-resultado">
+      <p><strong>Results</strong></p>
+    <p>
+      Underweight<br>
+      Healthy Weight<br>
+      Overweight<br>
+      obesity class 1<br>
+      obesity class 2<br>
+      obesity class 3
+    </p>
+    </div>
+    
+    <h3>calculate your BMI</h3>
+
+    <form action="" class="form">
+      <label for="input-teste-1">Weight(Kg):</label>
+      <input type="text" id="input-peso" class="inputBox">
+
+      <label for="input-teste-3">Height(m):</label>
+      <input type="text" id="input-altura" class="inputBox">
+
+      <button class="submitButton">Submit</button>
+    </form>
+
+    <p class="paragrafo-resultado"></p>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
